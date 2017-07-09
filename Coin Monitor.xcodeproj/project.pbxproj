@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D079A10B1F12487F00F6B2C1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079A10A1F12487F00F6B2C1 /* Router.swift */; };
 		D08317AD1F0D6C6500ED7764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */; };
 		D08317AF1F0D6C6500ED7764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08317AE1F0D6C6500ED7764 /* ViewController.swift */; };
 		D08317B21F0D6C6500ED7764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08317B01F0D6C6500ED7764 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4B5CFDF5D97F02B2107FFE8B /* Pods-Coin Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin Monitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coin Monitor/Pods-Coin Monitor.debug.xcconfig"; sourceTree = "<group>"; };
 		952F4FF424A077D655010580 /* Pods_Coin_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coin_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D079A10A1F12487F00F6B2C1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D08317A91F0D6C6500ED7764 /* Coin Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08317AE1F0D6C6500ED7764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */,
 				D08317AE1F0D6C6500ED7764 /* ViewController.swift */,
+				D079A10A1F12487F00F6B2C1 /* Router.swift */,
 				D08317B01F0D6C6500ED7764 /* Main.storyboard */,
 				D08317B31F0D6C6500ED7764 /* Assets.xcassets */,
 				D08317B51F0D6C6500ED7764 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08317AF1F0D6C6500ED7764 /* ViewController.swift in Sources */,
+				D079A10B1F12487F00F6B2C1 /* Router.swift in Sources */,
 				D08317AD1F0D6C6500ED7764 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +380,7 @@
 				D08317BD1F0D6C6500ED7764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
