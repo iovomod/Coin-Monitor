@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01291331F1272E000A16736 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01291321F1272E000A16736 /* UserServices.swift */; };
+		D01291361F12771700A16736 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01291351F12771700A16736 /* User.swift */; };
+		D01291381F1278FC00A16736 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01291371F1278FC00A16736 /* Company.swift */; };
 		D079A10B1F12487F00F6B2C1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079A10A1F12487F00F6B2C1 /* Router.swift */; };
 		D08317AD1F0D6C6500ED7764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */; };
 		D08317AF1F0D6C6500ED7764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08317AE1F0D6C6500ED7764 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		4B5CFDF5D97F02B2107FFE8B /* Pods-Coin Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin Monitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coin Monitor/Pods-Coin Monitor.debug.xcconfig"; sourceTree = "<group>"; };
 		952F4FF424A077D655010580 /* Pods_Coin_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coin_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01291321F1272E000A16736 /* UserServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		D01291351F12771700A16736 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D01291371F1278FC00A16736 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		D079A10A1F12487F00F6B2C1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D08317A91F0D6C6500ED7764 /* Coin Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D01291341F12770000A16736 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D01291351F12771700A16736 /* User.swift */,
+				D01291371F1278FC00A16736 /* Company.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D08317A01F0D6C6500ED7764 = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +95,11 @@
 		D08317AB1F0D6C6500ED7764 /* Coin Monitor */ = {
 			isa = PBXGroup;
 			children = (
+				D01291341F12770000A16736 /* Models */,
 				D08317AC1F0D6C6500ED7764 /* AppDelegate.swift */,
 				D08317AE1F0D6C6500ED7764 /* ViewController.swift */,
 				D079A10A1F12487F00F6B2C1 /* Router.swift */,
+				D01291321F1272E000A16736 /* UserServices.swift */,
 				D08317B01F0D6C6500ED7764 /* Main.storyboard */,
 				D08317B31F0D6C6500ED7764 /* Assets.xcassets */,
 				D08317B51F0D6C6500ED7764 /* LaunchScreen.storyboard */,
@@ -214,9 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01291331F1272E000A16736 /* UserServices.swift in Sources */,
 				D08317AF1F0D6C6500ED7764 /* ViewController.swift in Sources */,
 				D079A10B1F12487F00F6B2C1 /* Router.swift in Sources */,
+				D01291361F12771700A16736 /* User.swift in Sources */,
 				D08317AD1F0D6C6500ED7764 /* AppDelegate.swift in Sources */,
+				D01291381F1278FC00A16736 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

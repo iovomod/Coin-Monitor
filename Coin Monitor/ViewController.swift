@@ -7,17 +7,33 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
-import Realm
 
 class ViewController: UIViewController {
-
+    
+    let userServices = UserServices()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        showUsers()
+        print("New Data")
+        userServices.downloadUsers {[weak self] in
+            self?.showUsers()
+        }
 
+        
     }
-
+    
+    
+    func showUsers() {
+        let companyes = userServices.getCompanyes()
+        
+        for company in companyes {
+            for user in company.arrayUser {
+                print("Company: \(company.name), UserName: \(user.surename)")
+            }
+        }
+    }
 }
 
  
